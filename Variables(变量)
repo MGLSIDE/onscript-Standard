@@ -1,0 +1,10 @@
+Variables_type Variables_name =Variables_Value
+变量类型 变量名=变量值。
+多声明：
+变量_类型 变量1_名称,变量2_名称..=值
+前面所有变量默认类型 变量1_类型 变量1_名称,
+变量2_类型 变量2_名称,变量3_名称..=值
+Multiple claims: 
+ Variable _ Type Variable1 _ Name, Variable2 _ Name.. = value 
+ All previou variables default type variable 1 _ type variable 1 _ name, 
+ Variable2 _ Type Variable2 _ Name, Variable3 _ Name.. = value
