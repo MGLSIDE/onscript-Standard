@@ -1,0 +1,6 @@
+Function function_name (parameter1, parameter2...)  Body of function  return Return_value1,return_value2... end
+function 函数名称(参数1,参数2..)
+函数体
+return 反回值1,反回值2...
+end
+
