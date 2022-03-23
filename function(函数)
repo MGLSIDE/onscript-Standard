@@ -1,7 +1,37 @@
-function function_name (parameter1, parameter2...)  \n Body of function  \n return Return_value1,return_value2... \n end
+function function_name (parameter1, parameter2...)  
+Body of function  
+ return Return_value1,return_value2... 
+end
 function 函数名称(参数1,参数2..)
 函数体
-return 反回值1,反回值2...
-end\n只取函数第一反回值：
+return 返回值1,返回值2...
+end
+只取函数第一返回值：
 (函数名(参数...))
-Take only the first return value of the function: \n (Function name (parameter..))
+Take only the first return value of the function: 
+(Function name (parameter..))
+注意！函数或函数的返回值在被当做参数时，只取第一返回值。
+Notice! When a function or a return value of a function 
+is taken as 
+an argument, only the first return value is taken.
+取函数多返回值(变量和返回值接顺序一一对应)
+变量类型 变量1,变量2...=函数名(参数...)
+有关于关于多变量声明，的变量请参考"变量"
+变量多于返回值，多余的变量不声明
+返回值多于变量，多于的返回值不起作用。
+如：
+function add(a)
+return a+1,a+2,a+3
+end
+default_automatic var1,var2,var3=add(10)
+
+Take multiple return values of the function (the sequence of variables and return values is one-to-one correspondence) 
+ Variable Type Variable 1, Variable 2.. = function name (parameter..) 
+ For variables with respect to multivariate declarations, refer to "Variables" 
+ There are more variables than return values, and extra variables are not declared 
+The return value is more than the variable, and more than the return value has no effect. 
+ Such as: 
+ function add(a) 
+ return a+1,a+2,a+3 
+end 
+ default_automatic var1,var2,var3=add(10)
