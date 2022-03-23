@@ -1,0 +1,4 @@
+列表在onscript中有特殊意义，因为其是onscript语法的类lisp型式
+，为了方便list宏.
+
+
