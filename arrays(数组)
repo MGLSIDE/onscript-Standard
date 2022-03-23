@@ -1,0 +1,18 @@
+Create and Add：
+创建与增加：
+array-name={arrayElement_1,arrayElement_2...}
+数组名称={数组元素1,数组元素1...}
+array-name[key]=Value
+数组名称[键]=值
+Operational Representation：
+操作表示：
+数组名称[键/元素位置]
+Bulk operation:
+批量操作：
+数组名称=[<起始元素><终止元素>]
+Array name = < start element > < end element >]
+
+
+
+
+
