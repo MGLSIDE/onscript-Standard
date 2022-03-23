@@ -1,4 +1,20 @@
 列表在onscript中有特殊意义，因为其是onscript语法的类lisp型式
 ，为了方便list宏.
+Lists have special meaning in onscript because they are lisp-like versions of onscript syntax. 
+ , for the convenience of the list macro.
+list(
+list
+)
+如：
+list (
+(+ 10 50)
+)
+onscript中list一样才用前缀表达式
 
-
+list( \n list 
+) 
+Such as: 
+ list ( 
+ (+ 10 50)
+ ) 
+ Prefix expressions are used in onscript as in list
